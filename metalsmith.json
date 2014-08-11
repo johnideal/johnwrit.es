@@ -1,0 +1,17 @@
+{
+  "source": "./contents",
+  "metadata": {
+    "title": "johnwrit.es",
+    "description": "Personal blog of John Corrigan."
+  },
+  "plugins": {
+    "metalsmith-markdown": {},
+    "metalsmith-permalinks": {
+      "pattern": ":date/:title"
+    },
+    "metalsmith-templates": {
+      "engine": "handlebars",
+      "directory": "./templates"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "johnwrit.es",
+  "private": true,
+  "dependencies": {
+    "metalsmith-templates": "^0.5.2",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-permalinks": "^0.3.2",
+    "metalsmith": "^0.9.0"
+  }
+}
