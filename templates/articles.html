@@ -1,0 +1,25 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>All articles</title>
+  <meta name="description" content="No description">
+  <meta name="author" content="Contentful">
+
+</head>
+
+<body>
+  {{{contents}}}
+
+  <ul>
+    {{#each contentful.entries}}
+      <li>
+        <a href="{{this.data.sys.contentType.sys.id}}-{{this.data.sys.id}}.html">{{this.data.fields.title}}</a>
+      </li>
+    {{/each}}
+  </ul>
+</body>
+</html>
+
