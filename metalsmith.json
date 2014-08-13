@@ -5,6 +5,9 @@
     "description": "Personal blog of John Corrigan."
   },
   "plugins": {
+    "contentful-metalsmith": {
+      "accessToken" : "5ccbc4fd3505da5726a05afe5969ea625c394850f5b5af1562f0ea98ae5d5bd0"
+    },
     "metalsmith-markdown": {},
     "metalsmith-permalinks": {
       "pattern": ":date/:title"
