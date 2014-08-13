@@ -16,7 +16,9 @@
   <ul>
     {{#each contentful.entries}}
       <li>
-        <a href="{{this.data.sys.contentType.sys.id}}-{{this.data.sys.id}}.html">{{this.data.fields.title}}</a>
+        <a href="{{this.data.sys.id}}.html">
+          {{this.data.fields.subject}}
+        </a>
       </li>
     {{/each}}
   </ul>
